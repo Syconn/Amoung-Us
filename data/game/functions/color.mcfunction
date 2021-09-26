@@ -1,0 +1,1 @@
+give @s nether_star{display:{Name:'{"text":"Color Selector","color":"light_purple"}',Lore:['{"text":"Right Click to see","color":"green"}']},HideFlags:2,CustomModelData:1,Color:1b} 1

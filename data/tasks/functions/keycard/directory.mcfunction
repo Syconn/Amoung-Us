@@ -1,0 +1,6 @@
+scoreboard players set keycard chest_menu 0
+execute at @s[tag=keycard] if score keycard chest_menu matches 0 if entity @e[type=chest_minecart,tag=keycard,tag=!first,sort=nearest,nbt={Items:[{Slot:11b,id:"minecraft:gray_concrete",tag:{Selection:51}}]}] run function tasks:keycard/first
+execute at @s[tag=keycard] if score keycard chest_menu matches 0 if entity @e[type=chest_minecart,tag=keycard,tag=!second,sort=nearest,nbt={Items:[{Slot:12b,id:"minecraft:gray_concrete",tag:{Selection:51}}]}] run function tasks:keycard/second
+execute at @s[tag=keycard] if score keycard chest_menu matches 0 if entity @e[type=chest_minecart,tag=keycard,tag=!third,sort=nearest,nbt={Items:[{Slot:13b,id:"minecraft:gray_concrete",tag:{Selection:51}}]}] run function tasks:keycard/third
+execute at @s[tag=keycard] if score keycard chest_menu matches 0 if entity @e[type=chest_minecart,tag=keycard,tag=!fourth,sort=nearest,nbt={Items:[{Slot:14b,id:"minecraft:gray_concrete",tag:{Selection:51}}]}] run function tasks:keycard/fourth
+execute at @s[tag=keycard] if score keycard chest_menu matches 0 if entity @e[type=chest_minecart,tag=keycard,tag=!fifth,sort=nearest,nbt={Items:[{Slot:15b,id:"minecraft:gray_concrete",tag:{Selection:51}}]}] run function tasks:keycard/fifth
