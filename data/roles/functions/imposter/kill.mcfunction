@@ -1,5 +1,5 @@
 clear @a[tag=imposter] #game:weapons
-replaceitem entity @s[tag=imposter] hotbar.1 carrot_on_a_stick{CustomModelData:4,Weapon:0b,display:{Name:'{"text":"Kill","color":"red"}'}}
+item replace entity @s[tag=imposter] hotbar.1 with carrot_on_a_stick{CustomModelData:4,Weapon:0b,display:{Name:'{"text":"Kill","color":"red"}'}}
 
 scoreboard players operation time timers = seconds time
 scoreboard players operation endTime timers = time timers
